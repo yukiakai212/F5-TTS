@@ -45,8 +45,8 @@ DEFAULT_TTS_MODEL = "F5-TTS"
 tts_model_choice = DEFAULT_TTS_MODEL
 
 DEFAULT_TTS_MODEL_CFG = [
-    "hf://SWivid/F5-TTS/F5TTS_Base/model_1200000.safetensors",
-    "hf://SWivid/F5-TTS/F5TTS_Base/vocab.txt",
+    "hf://yukiakai/F5-TTS-Vietnamese/model_85044.safetensors",
+    "hf://yukiakai/F5-TTS-Vietnamese/vocab.txt",
     json.dumps(dict(dim=1024, depth=22, heads=16, ff_mult=2, text_dim=512, conv_layers=4)),
 ]
 
